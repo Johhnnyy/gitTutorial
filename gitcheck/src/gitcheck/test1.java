@@ -8,10 +8,8 @@ public class test1 {
 
 	@Test
 	public  void testMethod(){
-		int a = 2;
-		int b= 3;
-		System.out.println("test1 result");
-		System.out.println("first change");
+		System.out.println("pass");
+//		System.out.println("first change");
 		System.out.println(System.getProperty("build"));
 
 
@@ -19,11 +17,10 @@ public class test1 {
 
 	@Test
 	public  void testMethod2(){
-		int a = 2;
-		int b= 3;
-		System.out.println("test1 result");
-		System.out.println("first change");
-		System.out.println(System.getProperty("build"));
+
+		System.out.println("fail");
+//		System.out.println("first change");
+//		System.out.println(System.getProperty("build"));
 		Assert.assertEquals(true, false);
 
 
