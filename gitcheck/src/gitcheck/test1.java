@@ -9,6 +9,7 @@ public class test1 {
 public  void testMethod(){
 	System.out.println("test1 result");
 	System.out.println("first change");
-	
+	System.out.println(System.getProperty("build"));
+
 }
 }
