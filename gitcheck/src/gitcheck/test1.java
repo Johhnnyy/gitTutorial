@@ -10,12 +10,12 @@ public class test1 {
 	public  void testMethod(){
 		System.out.println("pass");
 //		System.out.println("first change");
-		System.out.println(System.getProperty("build"));
+		System.out.println("Test Execution number:- "+System.getProperty("build"));
 
 
 	}
 
-	@Test
+/*	@Test
 	public  void testMethod2(){
 
 		System.out.println("fail");
@@ -25,5 +25,5 @@ public class test1 {
 
 
 	}
-
+*/
 }
